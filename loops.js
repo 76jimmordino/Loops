@@ -17,7 +17,10 @@ function loopTwo(number,power){
 
 let sum = 0;
 
-for(let number = 0; number < power; number = ++){}
+for(let p = 0; p <= power; p++){
+
+  sum = sum + number^p;
+}
 }
 
 function loopThree(){
