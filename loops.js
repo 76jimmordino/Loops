@@ -19,13 +19,18 @@ let sum = 0;
 
 for(let p = 0; p <= power; p++){
 
-  sum = sum + number^p;
+  sum = sum + Math.pow(number,p);
 }
+return sum
 }
 
-function loopThree(){
-
-
+function loopThree(symbol,number){
+let lasttime= "";
+  for(let s=1; s<= number; s++){
+    console.log(lasttime);
+  lasttime = lasttime + symbol;
+  }
+console.log(lasttime);
 }
 
 function main(){
